@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+.chart-container {
+    display: flex;            /* Usar flexbox para alinear los elementos horizontalmente */
+    justify-content: space-around; /* Espacio equitativo entre las gráficas */
+    align-items: center;      /* Alinea verticalmente al centro */
+    gap: 20px;                /* Espacio entre las gráficas */
+    margin: 20px 0;           /* Márgenes externos alrededor del contenedor */
+}
+
+.chart {
+    flex: 1;                  /* Cada gráfica ocupará el mismo espacio */
+    max-width: 45%;           /* Máximo 45% de ancho para cada gráfica */
+    height: 400px;            /* Altura de las gráficas */
+    background-color: #f0f0f0; /* Color de fondo para visualizar el contenedor */
+    border: 1px solid #ccc;   /* Borde para distinguir las gráficas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+}
